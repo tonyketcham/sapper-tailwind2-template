@@ -44,11 +44,16 @@ This will export your site into static files and open a local production server 
 
 _ref: [@breadthe/svelte-tailwind2-starter](https://github.com/breadthe/svelte-tailwind2-starter)_
 
-When PostCSS kicks in on `production` mode, it doesn't consider the dynamic class bindings in your components. Thus, if you use `bg-gray-200` only once in your app like this: `<h1 class="relative flex m-6 text-5xl" class:bg-gray-200={isGray}>` then you're losing that `bg-gray-200`.
+When PostCSS kicks in on `production` mode, it doesn't consider the dynamic class bindings in your components. Thus, if you use `bg-gray-200` only once in your app like this: 
+```svelte
+<h1 class="relative flex m-6 text-5xl" class:bg-gray-200={isGray}>
+```
+then you're losing that `bg-gray-200` by default.
 
-However, there's a slightly inconvenient way around that which will keep ya happy as long as you remember to do it.
+*However*, there's a slightly inconvenient way around that which will keep ya happy as long as you remember to do it.
 
 ```js
+// tailwind.config.js
   purge: {
     enabled: production,
     content: ['./src/**/*.svelte', './src/**/*.html'],
