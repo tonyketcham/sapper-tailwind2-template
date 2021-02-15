@@ -23,7 +23,7 @@ Click on "Use this template" to create a new project repository initialized by t
 Once you have created the project, install dependencies and run the project in development mode:
 
 ```bash
-cd my-app
+cd my-winded-app
 yarn install
 yarn dev
 ```
