@@ -40,28 +40,6 @@ yarn static
 
 This will export your site into static files and open a local production server on [localhost:5000](localhost:5000). Open it and make sure everything matches your dev server.
 
-## 👺 The Catch
+## Contributions
 
-_ref: [@breadthe/svelte-tailwind2-starter](https://github.com/breadthe/svelte-tailwind2-starter)_
-
-When PostCSS kicks in on `production` mode, it doesn't consider the dynamic class bindings in your components. Thus, if you use `bg-gray-200` only once in your app like this: 
-```svelte
-<h1 class="relative flex m-6 text-5xl" class:bg-gray-200={isGray}>
-```
-then you're losing that `bg-gray-200` by default.
-
-*However*, there's a slightly inconvenient way around that which will keep ya happy as long as you remember to do it.
-
-```js
-// tailwind.config.js
-  purge: {
-    enabled: production,
-    content: ['./src/**/*.svelte', './src/**/*.html'],
-    options: {
-      keyframes: true,
-      safelist: ['bg-gray-200'], // throw any classes that are *only* used in class bindings here. If you're using that class in a regular class attribute, then you should be good and don't have to worry about putting it here
-    },
-  },
-```
-
-If anyone has a nice fix to this so that PostCSS considers dynamic classes in its purging, please get a PR on the horn 🕵️‍♀️
+I'm very open to issues & PRs to keep this template updated, improved, and living on as a source of maintained truth. Don't shy away from posting in the issues or discussions tab with any questions or problems you're facing, or your thoughts on how to improve this template.
