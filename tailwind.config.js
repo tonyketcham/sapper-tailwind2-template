@@ -6,7 +6,10 @@ module.exports = {
     content: ['./src/**/*.svelte', './src/**/*.html'],
     options: {
       keyframes: true,
-      safelist: ['bg-gray-200'],
+      defaultExtractor: (content) => [
+        ...(content.match(/[^<>"'`\s]*[^<>"'`\s:]/g) || []),
+        ...(content.match(/(?<=class:)[^=>\/\s]*/g) || []),
+      ],
     },
   },
   darkMode: false, // or 'media' or 'class'
