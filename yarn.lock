@@ -3888,10 +3888,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier-plugin-svelte@^2.1.4:
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-svelte/-/prettier-plugin-svelte-2.1.4.tgz#ce2f441f9a8e19ae0d606c6f6c74d740f3dcd8ce"
-  integrity sha512-fQfcIyl04VNWI3+JeseT+gLljs2bJJifbKmrTe8yMnTCdv0unfM1jnY2p4etzCfOj6skC1FPFaqBayYk3+7ZZg==
+prettier-plugin-svelte@^2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-svelte/-/prettier-plugin-svelte-2.1.6.tgz#ae10e16d89c94c72a937574eb840501104ff4565"
+  integrity sha512-eg6MhH394IYsljIcLMgCx/wozObkUFZJ1GkH+Nj8sZQilnNCFTeSBcEohBaNa9hr5RExvlJQJ8a2CEjMMrwL8g==
 
 prettier@^2.2.1:
   version "2.2.1"
