@@ -1,5 +1,7 @@
 # 🐝 Sapper Template w/ Tailwind 2.0, TypeScript, ESLint, and Prettier 🍯
 
+[![sapper-tailwind2-template build status](https://circleci.com/gh/tonyketcham/sapper-tailwind2-template/tree/master.svg?style=svg)](https://app.circleci.com/pipelines/github/tonyketcham/sapper-tailwind2-template)
+
 All the [Sapper](https://github.com/sveltejs/sapper) x [Tailwind 2.0](https://tailwindcss.com) starter templates I came across were outdated using either Tailwind v1 or an old version of Sapper.
 
 So I made one for getting started featuring all the nuts and bolts of a more advanced config to help ya hit the ground running quicker.
