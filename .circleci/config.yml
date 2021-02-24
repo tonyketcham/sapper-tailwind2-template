@@ -1,0 +1,22 @@
+jobs:
+  build:
+    executor:
+      name: node/default
+      tag: '15.2'
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: yarn
+      - run:
+          command: yarn lint
+          name: Run eslint with Prettier config
+      - run:
+          command: yarn build
+          name: Run yarn build
+orbs:
+  node: circleci/node@4.1.0
+version: 2.1
+workflows:
+  main:
+    jobs:
+      - build
