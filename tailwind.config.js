@@ -1,8 +1,6 @@
-const production = !process.env.ROLLUP_WATCH;
-
 module.exports = {
   purge: {
-    enabled: production,
+    enabled: process.env.NODE_ENV === 'production',
     content: ['./src/**/*.svelte', './src/**/*.html'],
     options: {
       keyframes: true,
