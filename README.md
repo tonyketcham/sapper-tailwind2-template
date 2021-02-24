@@ -40,6 +40,15 @@ yarn static
 
 This will export your site into static files and open a local production server on [localhost:5000](localhost:5000). Open it and make sure everything matches your dev server.
 
+## 📝 Notes
+You will encounter this when you run `yarn dev`:
+
+```sh
+• service worker
+No directory provided. Skipping CSS generation
+```
+[This is a Sapper service worker issue](https://github.com/sveltejs/sapper-template/issues/298) and can be safely ignored until they address this with a fix.
+
 ## Contributions
 
 I'm very open to issues & PRs to keep this template updated, improved, and living on as a source of maintained truth. Don't shy away from posting in the issues or discussions tab with any questions or problems you're facing, or your thoughts on how to improve this template.
