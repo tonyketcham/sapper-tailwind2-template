@@ -4619,10 +4619,10 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte-check@^1.1.36:
-  version "1.1.36"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.1.36.tgz#b3998b5196946501c6e09b4775c096161a96eecc"
-  integrity sha512-vJ5/GGCNUlTtI0Ep6kD/oeISUSEvPBeY+uPT5B1koBxyo10wfkucReJiuDvyNpWokJ9v5C8TL2TeJ27/AyUhdg==
+svelte-check@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.2.0.tgz#04acb3e7d10607bc839fff0f80848b101040b21a"
+  integrity sha512-yrgYZwd50fstLeECaOjMAGxchUv+Gfg2W4e4gNxQ36910A1gUv49STtwe8PqDbNOeMIMF7kgwJ/h4rqAJAmZnQ==
   dependencies:
     chalk "^4.0.0"
     chokidar "^3.4.1"
