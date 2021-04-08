@@ -67,7 +67,7 @@
     "svelte-preprocess": "^4.7.0",
     "tailwindcss": "^2.1.1",
     "tslib": "^2.0.1",
-    "typescript": "^4.2.3"
+    "typescript": "^4.2.4"
   },
   "husky": {
     "hooks": {
