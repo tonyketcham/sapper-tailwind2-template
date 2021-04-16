@@ -2,6 +2,8 @@
 
 [![sapper-tailwind2-template build status](https://circleci.com/gh/tonyketcham/sapper-tailwind2-template/tree/master.svg?style=svg)](https://app.circleci.com/pipelines/github/tonyketcham/sapper-tailwind2-template)
 
+## UPDATE [4/16/2021]: Highly recommend using [SvelteKit](https://github.com/sveltejs/kit) over Sapper even for production applications
+
 All the [Sapper](https://github.com/sveltejs/sapper) x [Tailwind 2.0](https://tailwindcss.com) starter templates I came across were outdated using either Tailwind v1 or an old version of Sapper.
 
 So I made one for getting started featuring all the nuts and bolts of a more advanced config to help ya hit the ground running quicker.
@@ -43,12 +45,14 @@ yarn static
 This will export your site into static files and open a local production server on [localhost:5000](localhost:5000). Open it and make sure everything matches your dev server.
 
 ## 📝 Notes
+
 You will encounter this when you run `yarn dev`:
 
 ```sh
 • service worker
 No directory provided. Skipping CSS generation
 ```
+
 [This is a Sapper service worker issue](https://github.com/sveltejs/sapper-template/issues/298) and can be safely ignored until they address this with a fix.
 
 ## Contributions
