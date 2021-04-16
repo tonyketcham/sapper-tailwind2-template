@@ -27,8 +27,8 @@
   export let segment;
 </script>
 
-<style>
+<style lang="postcss">
   li {
-    @apply bg-yellow-400 px-1;
+    @apply bg-yellow-500 px-1;
   }
 </style>

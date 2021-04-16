@@ -18,7 +18,7 @@
     </figcaption>
   </figure>
 
-  <p class="p-10 font-mono tracking-tight text-center text-indigo-700">
+  <p class="p-10 font-mono tracking-tight text-center text-indigo-100">
     <strong
       >Try editing this file (src/routes/index.svelte) to test live reloading.</strong
     >
@@ -29,3 +29,9 @@
   import successkid from 'images/successkid.jpg';
   let isGray = true;
 </script>
+
+<style lang="postcss">
+  p {
+    @apply m-1 p-3;
+  }
+</style>

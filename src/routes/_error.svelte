@@ -17,25 +17,24 @@
   const dev = process.env.NODE_ENV === 'development';
 </script>
 
-<style>
+<style lang="postcss">
   h1,
   p {
-    margin: 0 auto;
+    @apple my-0 mx-auto;
   }
 
   h1 {
-    font-size: 2.8em;
-    font-weight: 700;
-    margin: 0 0 0.5em 0;
+    @apply text-4xl font-bold;
+    @apply mb-2;
   }
 
   p {
-    margin: 1em auto;
+    @apply my-4 mx-auto;
   }
 
   @media (min-width: 480px) {
     h1 {
-      font-size: 4em;
+      @apply text-6xl;
     }
   }
 </style>
