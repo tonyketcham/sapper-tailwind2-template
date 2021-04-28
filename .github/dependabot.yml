@@ -1,0 +1,45 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "11:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: svelte-check
+    versions:
+    - 1.5.1
+    - 1.5.2
+  - dependency-name: "@babel/runtime"
+    versions:
+    - 7.13.10
+    - 7.13.17
+    - 7.13.4
+  - dependency-name: svelte-preprocess
+    versions:
+    - 4.7.2
+  - dependency-name: "@rollup/plugin-node-resolve"
+    versions:
+    - 11.2.0
+    - 11.2.1
+  - dependency-name: rollup
+    versions:
+    - 2.41.5
+    - 2.42.0
+  - dependency-name: eslint
+    versions:
+    - 7.22.0
+  - dependency-name: "@babel/preset-env"
+    versions:
+    - 7.13.0
+    - 7.13.10
+  - dependency-name: "@babel/plugin-transform-runtime"
+    versions:
+    - 7.13.4
+  - dependency-name: "@rollup/plugin-replace"
+    versions:
+    - 2.4.0
+  - dependency-name: husky
+    versions:
+    - 5.1.0
