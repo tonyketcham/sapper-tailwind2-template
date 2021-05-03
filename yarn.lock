@@ -4573,10 +4573,10 @@ svelte-check@^1.5.2:
     svelte-preprocess "^4.0.0"
     typescript "*"
 
-svelte-preprocess@^4.0.0, svelte-preprocess@^4.7.1:
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.7.1.tgz#aae3602537ba3e7218c17ddb237887097c5a7c0d"
-  integrity sha512-sOjDPvNmAgyX8vhb0UfOFneDVRXoJHzQsbxNcUq0a5hq0+01G+boxk1D0ZUN8wIa9lLWFcsjSiuprQp7N8YbqQ==
+svelte-preprocess@^4.0.0, svelte-preprocess@^4.7.3:
+  version "4.7.3"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.7.3.tgz#454fa059c2400b15e7a3caeca18993cff9df0e96"
+  integrity sha512-Zx1/xLeGOIBlZMGPRCaXtlMe4ZA0faato5Dc3CosEqwu75MIEPuOstdkH6cy+RYTUYynoxzNaDxkPX4DbrPwRA==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
