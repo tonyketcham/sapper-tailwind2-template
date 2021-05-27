@@ -1070,10 +1070,10 @@
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.1.1.tgz#3348564048e7a2d7398c935d466c0414ebb6a669"
   integrity sha512-Z6DoceYb/1xSg5+e+ZlPZ9v0N16ZvZ+wYMraFue4HYrE4ttONKtsvruIRf6t9TBR0YvSOfi1hUU0fJfBLCDYow==
 
-"@tsconfig/svelte@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@tsconfig/svelte/-/svelte-1.0.10.tgz#30ec7feeee0bdf38b12a50f0686f8a2e7b6b9dc0"
-  integrity sha512-EBrpH2iXXfaf/9z81koiDYkp2mlwW2XzFcAqn6qh7VKyP8zBvHHAQzNhY+W9vH5arAjmGAm5g8ElWq6YmXm3ig==
+"@tsconfig/svelte@^1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@tsconfig/svelte/-/svelte-1.0.12.tgz#455b96f7538039f44af312ed12b82af8d7ded58e"
+  integrity sha512-Ti8SAnNa6zLWcJAHo3ac3B2qkZbFweT6mLPuGS8c4/EtmvdaNBzp5IP7tvRC6QkmQ/yhdh0mTbDWZFwltvzAWw==
 
 "@types/body-parser@*":
   version "1.19.0"
