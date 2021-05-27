@@ -993,7 +993,7 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@polka/url@^1.0.0-next.12", "@polka/url@^1.0.0-next.15":
+"@polka/url@^1.0.0-next.15":
   version "1.0.0-next.15"
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.15.tgz#6a9d143f7f4f49db2d782f9e1c8839a29b43ae23"
   integrity sha512-15spi3V28QdevleWBNXE4pIls3nFZmBbUGrW9IVPwiQczuSb9n76TCB4bsk8TSel+I1OkHEdPhu5QKMfY6rQHA==
@@ -3433,11 +3433,11 @@ please-upgrade-node@^3.2.0:
     semver-compare "^1.0.0"
 
 polka@next:
-  version "1.0.0-next.14"
-  resolved "https://registry.yarnpkg.com/polka/-/polka-1.0.0-next.14.tgz#58afc40fb3380d86bf6a6385b187e25c44bb3eba"
-  integrity sha512-nRxh6lifEred8F973wMJ3YA7z8EBAf+lWFLbhIh4MnYJXmZododD8FDGj+R81xnuNNG8b4PDqNXvrB5ShKcStA==
+  version "1.0.0-next.15"
+  resolved "https://registry.yarnpkg.com/polka/-/polka-1.0.0-next.15.tgz#04190847b4bc598261755a29c51872ea8259cc77"
+  integrity sha512-zBCZO40+USkSj0GDHMqufthqk4TIRc9xVGd50LbMvYNEwGHK8dZczLBQtw9pPHBM+i/Xg7ed7+c+r6J68XkWLg==
   dependencies:
-    "@polka/url" "^1.0.0-next.12"
+    "@polka/url" "^1.0.0-next.15"
     trouter "^3.1.0"
 
 postcss-attribute-case-insensitive@^4.0.1:
