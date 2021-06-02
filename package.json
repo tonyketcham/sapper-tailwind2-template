@@ -35,7 +35,7 @@
     "@rollup/plugin-replace": "^2.4.2",
     "@rollup/plugin-typescript": "^8.2.1",
     "@rollup/plugin-url": "^6.0.0",
-    "@tsconfig/svelte": "^1.0.13",
+    "@tsconfig/svelte": "^2.0.1",
     "@types/compression": "^1.7.0",
     "@types/node": "^15.6.1",
     "@types/polka": "^0.5.1",
