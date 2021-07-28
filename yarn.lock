@@ -2831,9 +2831,9 @@ lines-and-columns@^1.1.6:
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
 lint-staged@>=11:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-11.0.0.tgz#24d0a95aa316ba28e257f5c4613369a75a10c712"
-  integrity sha512-3rsRIoyaE8IphSUtO1RVTFl1e0SLBtxxUOPBtHxQgBHS5/i6nqvjcUfNioMa4BU9yGnPzbO+xkfLtXtxBpCzjw==
+  version "11.1.1"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-11.1.1.tgz#9c2018b872654cf80b2b1ff5a10b6b74aef6e300"
+  integrity sha512-eTNGe6i78PSUUH2BZi1gZmGmNfb8IeN4z2OzMYxSZ1qnP1WXKn1E7D+OHwLbRDm/wQINnzIj0bsKJ6lLVSuZiQ==
   dependencies:
     chalk "^4.1.1"
     cli-truncate "^2.1.0"
@@ -4243,10 +4243,10 @@ safe-buffer@^5.1.0:
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
   integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
-sapper@^0.29.1:
-  version "0.29.1"
-  resolved "https://registry.yarnpkg.com/sapper/-/sapper-0.29.1.tgz#152102d97eb1ad4185671095052d976acf7187c1"
-  integrity sha512-f+YxEwES4QRSB6FubtD8z1031/5udNHmr2j0960VfjG3uQWtqkCzrJE06fRWh0p9jE3MGDMOcAF+XBLGWYsY3w==
+sapper@^0.29.2:
+  version "0.29.2"
+  resolved "https://registry.yarnpkg.com/sapper/-/sapper-0.29.2.tgz#1209bb68912dc64c3217968dc79d402bbfd8ee64"
+  integrity sha512-ze/dWaQqlpBbt7z4ENzcFomEDeQTFODbdj7WKQxOrs2vRj3EnrxsngNAqsnxMnmR2kaHsajmvzq4fYICkNczSA==
   dependencies:
     html-minifier "^4.0.0"
     http-link-header "^1.0.2"
@@ -4547,10 +4547,10 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte-check@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.2.0.tgz#9a2f870288e1bd5c499e6c1a47a79dbdcd3f3962"
-  integrity sha512-6Lo5h/I2LlygtKn9sl2n5hAPBZgeY99wlsz0+6f5K3qCpMwYC8rkcbrZkNpNEMwbMABQkcWOKb5cfEew6Q/Kpg==
+svelte-check@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.2.3.tgz#8d702b86607049e18dfc9b36dd72e0fe830f3023"
+  integrity sha512-mqe/lgF0Ew+54YI4bPW5D26sMolh+MofQiz41U0c1GvUsP3bKsLLH0mjs4P4Xc+ajUFJtvGBo5PWaf0dd46sIQ==
   dependencies:
     chalk "^4.0.0"
     chokidar "^3.4.1"
