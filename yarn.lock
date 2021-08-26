@@ -978,10 +978,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@polka/url@^1.0.0-next.17":
-  version "1.0.0-next.17"
-  resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.17.tgz#25fdbdfd282c2f86ddf3fcefbd98be99cd2627e2"
-  integrity sha512-0p1rCgM3LLbAdwBnc7gqgnvjHg9KpbhcSphergHShlkWz8EdPawoMJ3/VbezI0mGC5eKCDzMaPgF9Yca6cKvrg==
+"@polka/url@^1.0.0-next.17", "@polka/url@^1.0.0-next.19":
+  version "1.0.0-next.19"
+  resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.19.tgz#2c94db828794aa53e7a420809dac870348819233"
+  integrity sha512-kHR9OHwP9WLpyC0i/WCAQCgf5hXkR9C+/21qxmrn+YwRlDRnBlqrcrFpXxhJTA9LDHJWa/FjoO2LJ12q8iWlEQ==
 
 "@rollup/plugin-babel@^5.0.0":
   version "5.3.0"
@@ -3376,11 +3376,11 @@ please-upgrade-node@^3.2.0:
     semver-compare "^1.0.0"
 
 polka@next:
-  version "1.0.0-next.17"
-  resolved "https://registry.yarnpkg.com/polka/-/polka-1.0.0-next.17.tgz#1820a8bfdc09b904d352bfac95c466e8f899509a"
-  integrity sha512-hvr+9y895Aa6/Pz3JlF53rgdt4yPzwDc8MsAc8BUAsj2YIfJi9MqGPO9Jie0yF/weehJEow4dy8M+fQ8OU8iVA==
+  version "1.0.0-next.19"
+  resolved "https://registry.yarnpkg.com/polka/-/polka-1.0.0-next.19.tgz#349a3c33abaccc8cbb660a9b35d4bc1d4546d343"
+  integrity sha512-nGQfuvtZK+M+7O5X+j27zW3XW+v5UtN+zgUJUh6T3RLegUw1H9ufvGWZUT2qwAq9C8VZ3JOOkPICcZL1lSwxHA==
   dependencies:
-    "@polka/url" "^1.0.0-next.17"
+    "@polka/url" "^1.0.0-next.19"
     trouter "^3.1.0"
 
 postcss-attribute-case-insensitive@^4.0.1:
