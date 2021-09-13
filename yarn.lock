@@ -978,7 +978,7 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@polka/url@^1.0.0-next.17", "@polka/url@^1.0.0-next.20":
+"@polka/url@^1.0.0-next.20":
   version "1.0.0-next.20"
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.20.tgz#111b5db0f501aa89b05076fa31f0ea0e0c292cd3"
   integrity sha512-88p7+M0QGxKpmnkfXjS4V26AnoC/eiqZutE8GLdaI5X12NY75bXSdTY9NkmYb2Xyk1O+MmkuO6Frmsj84V6I8Q==
@@ -4581,10 +4581,10 @@ svelte-preprocess@^4.0.0, svelte-preprocess@^4.8.0:
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
 
-svelte@^3.42.1:
-  version "3.42.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.42.1.tgz#d4b4d9068cce911835f7c6b8ff1d290e1a0b5657"
-  integrity sha512-XtExLd2JAU3T7M2g/DkO3UNj/3n1WdTXrfL63OZ5nZq7nAqd9wQw+lR4Pv/wkVbrWbAIPfLDX47UjFdmnY+YtQ==
+svelte@^3.42.5:
+  version "3.42.5"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.42.5.tgz#06c27ccdacebb4027b7a625633e7ca285bdff713"
+  integrity sha512-+y9ivcwMojAb0e87W7vR/UP7go44zc/3gtEciIMb8CUoIkUx6UJmPloBvVuO9MDXoGkUZM5SHr5PbLze9fJQVw==
 
 svgo@^2.3.0:
   version "2.3.0"
