@@ -39,7 +39,7 @@
     "@types/compression": "^1.7.1",
     "@types/node": "^16.6.2",
     "@types/polka": "^0.5.3",
-    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.29.3",
     "autoprefixer": "^10.3.4",
     "cross-env": "^7.0.3",
