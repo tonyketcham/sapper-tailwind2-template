@@ -15,7 +15,7 @@
     @apply relative;
     @apply max-w-4xl;
     @apply bg-white;
-    @apple p-8 my-0 mx-auto;
+    @apply p-8 my-0 mx-auto;
     @apply box-border;
   }
 </style>
