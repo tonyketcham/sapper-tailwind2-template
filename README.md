@@ -2,7 +2,9 @@
 
 [![sapper-tailwind2-template build status](https://circleci.com/gh/tonyketcham/sapper-tailwind2-template/tree/master.svg?style=svg)](https://app.circleci.com/pipelines/github/tonyketcham/sapper-tailwind2-template)
 
-## UPDATE [4/16/2021]: Highly recommend using [SvelteKit](https://github.com/sveltejs/kit) over Sapper even for production applications
+### Announcements
+  - [4/16/2021]: Highly recommend using [SvelteKit](https://github.com/sveltejs/kit) over Sapper even for production applications
+  - [11/10/2021]: With the success of SvelteKit as the replacement to Sapper, this project will be deprecated and archived when SvelteKit leaves beta
 
 All the [Sapper](https://github.com/sveltejs/sapper) x [Tailwind 2.0](https://tailwindcss.com) starter templates I came across were outdated using either Tailwind v1 or an old version of Sapper.
 
