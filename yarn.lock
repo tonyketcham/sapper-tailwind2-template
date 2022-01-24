@@ -895,10 +895,10 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.16.5", "@babel/runtime@^7.8.4":
-  version "7.16.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.16.5.tgz#7f3e34bf8bdbbadf03fbb7b1ea0d929569c9487a"
-  integrity sha512-TXWihFIS3Pyv5hzR7j6ihmeLkZfrXGxAr5UfSl8CHf+6q/wpiYDkUau0czckpYG8QmnCIuPpdLtuA9VmuGGyMA==
+"@babel/runtime@^7.16.7", "@babel/runtime@^7.8.4":
+  version "7.16.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.16.7.tgz#03ff99f64106588c9c403c6ecb8c3bafbbdff1fa"
+  integrity sha512-9E9FJowqAsytyOY6LG+1KuueckRL+aQW+mKvXRXnuFGyRAyepJPmEo9vgMfXUA6O9u3IeEdv9MAkppFcaQwogQ==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -3969,10 +3969,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.64.0:
-  version "2.64.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.64.0.tgz#f0f59774e21fbb56de438a37d06a2189632b207a"
-  integrity sha512-+c+lbw1lexBKSMb1yxGDVfJ+vchJH3qLbmavR+awDinTDA2C5Ug9u7lkOzj62SCu0PKUExsW36tpgW7Fmpn3yQ==
+rollup@^2.66.0:
+  version "2.66.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.66.0.tgz#ee529ea15a20485d579039637fec3050bad03bbb"
+  integrity sha512-L6mKOkdyP8HK5kKJXaiWG7KZDumPJjuo1P+cfyHOJPNNTK3Moe7zCH5+fy7v8pVmHXtlxorzaBjvkBMB23s98g==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -4351,10 +4351,10 @@ svelte-preprocess@^4.0.0, svelte-preprocess@^4.10.1:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte@^3.46.1:
-  version "3.46.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.1.tgz#8ea23595824a39d47d04c16c217000fbc4c52c49"
-  integrity sha512-Ue8ivq+G45AfZZL4Z93xNFiC352wPkyGiY9QSuWjxXh6jiaZMrpthinjc1rz0OSTceuST7Pxr1HDBj2KioliZg==
+svelte@^3.46.2:
+  version "3.46.2"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.2.tgz#f0ffbffaea3a9a760edcbefc0902b41998a686ad"
+  integrity sha512-RXSAtYNefe01Sb1lXtZ2I+gzn3t/h/59hoaRNeRrm8IkMIu6BSiAkbpi41xb+C44x54YKnbk9+dtfs3pM4hECA==
 
 svgo@^2.7.0:
   version "2.8.0"
