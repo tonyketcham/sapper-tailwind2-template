@@ -5,6 +5,7 @@
 ### Announcements
   - [4/16/2021]: Highly recommend using [SvelteKit](https://github.com/sveltejs/kit) over Sapper even for production applications
   - [11/10/2021]: With the success of SvelteKit as the replacement to Sapper, this project will be deprecated and archived when SvelteKit leaves beta
+  - [1/5/2023]: SvelteKit has reached v1.0 and as such, this project has been archived and is now read-only
 
 All the [Sapper](https://github.com/sveltejs/sapper) x [Tailwind 2.0](https://tailwindcss.com) starter templates I came across were outdated using either Tailwind v1 or an old version of Sapper.
 
